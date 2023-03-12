@@ -1,0 +1,58 @@
+.navbar{
+    height: 70px;
+}
+#forBody{
+    height: 460px;
+}
+.jumbotron{
+    background-color: lightskyblue;
+}
+#footer{
+    background-color: black;
+}
+#mynavbar{
+    background-color: blueviolet;
+}
+body{
+    background-image: url(Images/background-img-1.webp);
+}
+#heading-card{
+    background-color: white;
+}
+#card-heading{
+    height: 450px;
+}
+.typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20 rem;
+    width: 0;
+    animation: typing 4s forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+#about-us:hover{
+    background-color: whea;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px 8px;
+}
+#about-iq-div{
+    background-color: white;
+}
+#about-iq-card{
+    background-color: white;
+    border: none;
+}
+#about-iq-hr{
+    width: 40%;
+}
+#beta-version{
+    background-color: black;
+    color: red;
+}
